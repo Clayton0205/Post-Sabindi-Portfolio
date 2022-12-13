@@ -153,7 +153,7 @@
         <div id="workExpierenceTitle" class="row">
           <h3>Work Expierence</h3>
         </div>
-        <div id="exp" class="row">
+        <div class="row exp">
           <div id="cramp" class="col">
             <div class="workTitle">
               <h4>Stream manager for TeamCRAMP</h4>
@@ -176,6 +176,37 @@
             <div>
               <h5>He asked me to help him take out the old lawn and of the previous owners and of course I stepped up
                 and dug up the old grass</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="education" class="row">
+        <div id="educationTitle">
+          <h3>Education</h3>
+        </div>
+        <div class="row exp">
+          <div id="swartland" class="col">
+            <div class="schoolTitle">
+              <h4>Swartland Primary and High School</h4>
+            </div>
+            <div>
+              <h5>12 years</h5>
+            </div>
+            <div>
+              <h5>My hometown did not have a lot of options and I am lucky that I got into the best it had to offer
+                twice. Swartland to me a lot of core values that I still practice today</h5>
+            </div>
+          </div>
+          <div id="lifechoices" class="col">
+            <div class="schoolTitle">
+              <h4>Lifechoices Coding Academy</h4>
+            </div>
+            <div>
+              <h5>6 Months</h5>
+            </div>
+            <div>
+              <h5>I went from almost nothing about coding to doing a decent job on project. The life skills sessions and
+                personal developement also improve the person I aspire to be</h5>
             </div>
           </div>
         </div>
@@ -320,7 +351,7 @@ td {
   color: #8a5649;
   text-align: center;
   width: 100vw;
-  height: 100vh;
+  height: 150vh;
   border-bottom: double #c49b84 5px;
 }
 
@@ -346,7 +377,7 @@ td {
   border-bottom: solid #8a5649 2px;
 }
 
-#exp {
+.exp {
   padding-top: 5vh;
 }
 
@@ -365,6 +396,36 @@ td {
 }
 
 .workTitle {
+  border-bottom: solid #8a5649 2px;
+}
+
+#education {
+  padding-top: 5vh;
+}
+
+#educationTitle {
+  text-align: center;
+  width: 15vw;
+  margin: auto;
+  padding-top: 2vh;
+  border-bottom: solid #8a5649 2px;
+}
+
+#swartland {
+  width: 50vw;
+  border: solid #8a5649 2px;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+#lifechoices {
+  width: 50vw;
+  border: solid #8a5649 2px;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+.schoolTitle {
   border-bottom: solid #8a5649 2px;
 }
 </style>
