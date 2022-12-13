@@ -54,22 +54,131 @@
             <h3>Soft Skills</h3>
           </div>
           <tr>
-            <td>Decision-making <i class="fa-solid fa-house"></i></td>
-            <td>Organisational</td>
-            <td>Adaptability1</td>
-            <td>Opennes to Criticism</td>
-            <td>Writing Skills</td>
-            <td>Resourcefulness</td>
+            <td><i class="fa-solid fa-brain"></i> <br>
+              <p>Decision-making</p>
+            </td>
+            <td><i class="fa-solid fa-table-columns"></i> <br>
+              <p>Organisational</p>
+            </td>
+            <td><i class="fa-brands fa-leanpub"></i> <br>
+              <p>Adaptability</p>
+            </td>
+            <td><i class="fa-solid fa-gavel"></i> <br>
+              <p>Opennes to Criticism</p>
+            </td>
+            <td><i class="fa-solid fa-pencil"></i> <br>
+              <p>Writing Skills</p>
+            </td>
+            <td><i class="fa-solid fa-boxes-stacked"></i> <br>
+              <p>Resourcefulness</p>
+            </td>
           </tr>
           <tr>
-            <td>Storytelling</td>
-            <td>Listening</td>
-            <td>Creativity</td>
-            <td>Artistic Aptitude</td>
-            <td>Critical Observation</td>
-            <td>Public Speaking</td>
+            <td><i class="fa-solid fa-book"></i> <br>
+              <p>Storytelling</p>
+            </td>
+            <td><i class="fa-solid fa-ear-listen"></i> <br>
+              <p>Listening</p>
+            </td>
+            <td><i class="fa-solid fa-paintbrush"></i> <br>
+              <p>Creativity</p>
+            </td>
+            <td><i class="fa-solid fa-palette"></i> <br>
+              <p>Artistic Aptitude</p>
+            </td>
+            <td><i class="fa-solid fa-eye"></i> <br>
+              <p>Critical Observation</p>
+            </td>
+            <td><i class="fa-solid fa-volume-high"></i> <br>
+              <p>Public Speaking</p>
+            </td>
           </tr>
         </table>
+      </div>
+      <div id="technicalSkills" class="row">
+        <table>
+          <div id="technicalSkillsTitle">
+            <h3>Technical Skills</h3>
+          </div>
+          <tr>
+            <td><i class="fa-brands fa-html5"></i> <br>
+              <p>HTML</p>
+            </td>
+            <td><i class="fa-brands fa-css3"></i> <br>
+              <p>CSS</p>
+            </td>
+            <td><i class="fa-brands fa-bootstrap"></i> <br>
+              <p>Bootstrap</p>
+            </td>
+            <td><i class="fa-brands fa-js"></i> <br>
+              <p>Javascript</p>
+            </td>
+          </tr>
+          <tr>
+            <td><i class="fa-brands fa-node"></i> <br>
+              <p>Node.js</p>
+            </td>
+            <td><i class="fa-brands fa-vuejs"></i> <br>
+              <p>Vue.js</p>
+            </td>
+            <td><i class="fa-brands fa-vuejs"></i> <br>
+              <p>Vuetify</p>
+            </td>
+            <td><i class="fa-solid fa-network-wired"></i> <br>
+              <p>Wireframing</p>
+            </td>
+          </tr>
+          <tr>
+            <td><i class="fa-solid fa-database"></i> <br>
+              <p>Database Management</p>
+            </td>
+            <td><i class="fa-solid fa-list-check"></i> <br>
+              <p>Task Management</p>
+            </td>
+            <td><i class="fa-solid fa-stopwatch"></i> <br>
+              <p>Time Management</p>
+            </td>
+            <td><i class="fa-regular fa-clipboard"></i> <br>
+              <p>Project Planning</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div id="resume" class="container-fluid">
+      <div id="resumeTitle" class="row">
+        <h1>Resume</h1>
+      </div>
+      <div id="workExpierence">
+        <div id="workExpierenceTitle" class="row">
+          <h3>Work Expierence</h3>
+        </div>
+        <div id="exp" class="row">
+          <div id="cramp" class="col">
+            <div class="workTitle">
+              <h4>Stream manager for TeamCRAMP</h4>
+            </div>
+            <div>
+              <h5>6 months</h5>
+            </div>
+            <div>
+              <h5>I made sure that everything ran smoothly while they streamed and acted as an advisor when big changes
+                were made in the background of the their chanel</h5>
+            </div>
+          </div>
+          <div id="matthew" class="col">
+            <div class="workTitle">
+              <h4>Garden work for Matthew Petters</h4>
+            </div>
+            <div>
+              <h5>1 month</h5>
+            </div>
+            <div>
+              <h5>He asked me to help him take out the old lawn and of the previous owners and of course I stepped up
+                and dug up the old grass</h5>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -77,7 +186,14 @@
 
 <script>
 export default {
-
+  computed: {
+    works() {
+      return this.$store.state.workex
+    },
+    educations() {
+      return this.$store.state.education
+    }
+  }
 }
 </script>
 
@@ -140,7 +256,7 @@ a {
   padding-top: 5vh;
   text-align: center;
   width: 100vw;
-  height: 200vh;
+  height: 220vh;
   border-bottom: double #c49b84 5px;
 }
 
@@ -187,8 +303,68 @@ table {
 }
 
 td {
+  width: 15vw;
   height: 20vh;
   border: solid #8a5649 1px;
 }
 
+#technicalSkills {
+  text-align: center;
+  margin-top: 10vh;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+#resume {
+  background-image: linear-gradient(to bottom, #fcf9f2, #f4eada, #eddac2, #e8caac, #e4b998);
+  color: #8a5649;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  border-bottom: double #c49b84 5px;
+}
+
+#resumeTitle {
+  margin: auto;
+  width: 10vw;
+  padding-top: 10vh;
+  font-size: 3vh;
+  border-bottom: solid #8a5649 2px;
+}
+
+#workExpierence {
+  text-align: center;
+  margin: auto;
+  padding-top: 2vh;
+}
+
+#workExpierenceTitle {
+  text-align: center;
+  width: 15vw;
+  margin: auto;
+  padding-top: 2vh;
+  border-bottom: solid #8a5649 2px;
+}
+
+#exp {
+  padding-top: 5vh;
+}
+
+#cramp {
+  width: 50vw;
+  border: solid #8a5649 2px;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+#matthew {
+  width: 50vw;
+  border: solid #8a5649 2px;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+.workTitle {
+  border-bottom: solid #8a5649 2px;
+}
 </style>
