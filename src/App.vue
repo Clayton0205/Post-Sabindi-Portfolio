@@ -266,7 +266,8 @@
             <img class="projectPicture" src="https://i.postimg.cc/HLN4vrXK/Screenshot-2022-07-22-105925.png">
           </div>
           <div>
-            <p>I created a store that sells countries with commodities such as area of country, population and my favorite...Amount of McDonalds in a country</p>
+            <p>I created a store that sells countries with commodities such as area of country, population and my
+              favorite...Amount of McDonalds in a country</p>
           </div>
         </div>
       </div>
@@ -290,7 +291,115 @@
             <img class="projectPicture" src="https://i.postimg.cc/gj0GGkKH/Screenshot-2022-07-21-093229.png">
           </div>
           <div>
-            <p>This was done in two parts styling that we earlier in the year and fuctionality that we did when we learned Javascript</p>
+            <p>This was done in two parts styling that we earlier in the year and fuctionality that we did when we
+              learned Javascript</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="testimonials" class="container-fluid">
+      <div id="testimonialsTitle">
+        <h3>Testimonials</h3>
+      </div>
+      <div class="row testimonialRow">
+        <div class="col testimonials">
+          <div>
+            <h4>Joel Mukanya</h4>
+          </div>
+          <div>
+            <p>- Coding Lecturer -</p>
+          </div>
+          <div>
+            <img id="testimonialPicture" src="https://i.postimg.cc/5N9ZRKs8/joel2.jpg">
+          </div>
+          <div>
+            <p>Clayton is a personable and easy-to-work-with person. Adding him to your coding team would be a wise
+              choice</p>
+          </div>
+        </div>
+        <div class="col testimonials">
+          <div>
+            <h4>Daniel Fredericks</h4>
+          </div>
+          <div>
+            <p>- Peer -</p>
+          </div>
+          <div>
+            <img class="testimonialPicture" src="https://i.postimg.cc/nc91rHWT/Daniel-3.jpg">
+          </div>
+          <div>
+            <p>Clayton has the potential to become an asset to anyone that would hire him. He is amazing to work with
+              and as a colleague it has been a pleasure to watch his coding develop, and I believe he will only get
+              better and better</p>
+          </div>
+        </div>
+      </div>
+      <div class="row testimonialRow">
+        <div class="col testimonials">
+          <div>
+            <h4>Mika Rinquest"</h4>
+          </div>
+          <div>
+            <p>- Peer -</p>
+          </div>
+          <div>
+            <img class="testimonialPicture" src="https://i.postimg.cc/7Lq737HP/img-6815.jpg">
+          </div>
+          <div>
+            <p>Clayton is a bright-minded individual that can quickly familiarize himself with new work. He will easily
+              make any workplace brighter</p>
+          </div>
+        </div>
+        <div class="col testimonials">
+          <div>
+            <h4>Muddathir Dawood</h4>
+          </div>
+          <div>
+            <p>- Peer -</p>
+          </div>
+          <div>
+            <img class="testimonialPicture" src="https://i.postimg.cc/GmDwF8Mf/Muddathir-1.jpg">
+          </div>
+          <div>
+            <p>Clayton is a developer with potential to become something great in the future. It is a pleasure watching
+              his skill grow with each project he is given and motivates me and other to do better. He will add an
+              enormous amount of value to any team</p>
+          </div>
+        </div>
+      </div>
+      <div class="row testimonialRow">
+        <div class="col testimonials">
+          <div>
+            <h4>Jared Isaacs</h4>
+          </div>
+          <div>
+            <p>- Peer -</p>
+          </div>
+          <div>
+            <img class="testimonialPicture" src="https://i.postimg.cc/hPpb2pYz/Jared-1.jpg">
+          </div>
+          <div>
+            <p>Clayton is an outgoing, hardworking, creative web developer. Who sets out to achieve his goals through
+              perseverance and determination. As his colleague I see a bright future filled with prosperity being set in
+              front of him, with his iron will to overcome any impediments that comes he way. As such he has the set
+              skills to fulfill any task that will be given to him, making him a great asset to any business or company.
+            </p>
+          </div>
+        </div>
+        <div class="col testimonials">
+          <div>
+            <h4>Bulelani Skhikhi</h4>
+          </div>
+          <div>
+            <p>- Peer -</p>
+          </div>
+          <div>
+            <img class="testimonialPicture" src="https://i.postimg.cc/59kQ5wxB/Bulelani-1.jpg">
+          </div>
+          <div>
+            <p>I think even if I did the research mentioned above, it would be a total waste of money because if those
+              people don't believe in the testimonials, they won't believe in the research at all. They would say that I
+              made it all up. So why waste money?</p>
           </div>
         </div>
       </div>
@@ -549,5 +658,43 @@ td {
 .projectPicture {
   width: 40vw;
   height: 35vh;
+}
+
+#testimonials {
+  background-image: linear-gradient(to bottom, #fcf9f2, #f4eada, #eddac2, #e8caac, #e4b998);
+  color: #8a5649;
+  text-align: center;
+  width: 100vw;
+  height: 200vh;
+  border-bottom: double #c49b84 5px;
+}
+
+#testimonialsTitle {
+  margin: auto;
+  width: 10vw;
+  padding-top: 5vh;
+  font-size: 3vh;
+  border-bottom: solid #8a5649 2px;
+}
+
+.testimonialRow {
+  padding-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.testimonials {
+  border: solid #8a5649 2px;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+.testimonialPicture {
+  width: 15vw;
+  height: 40vh;
+}
+
+#testimonialPicture {
+  width: 25vw;
+  height: 40vh;
 }
 </style>
