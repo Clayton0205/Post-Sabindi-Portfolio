@@ -6,8 +6,8 @@
         <div class="col animate__animated animate__fadeInUp"><a href="#about">About</a></div>
         <div class="col animate__animated animate__fadeInUp"><a href="#resume">Resume</a></div>
         <div class="col animate__animated animate__fadeInUp"><a href="#projects">Projects</a></div>
-        <div class="col animate__animated animate__fadeInUp"><a href="">Testimonials</a></div>
-        <div class="col animate__animated animate__fadeInUp"><a href="">Conatct</a></div>
+        <div class="col animate__animated animate__fadeInUp"><a href="#testimonials">Testimonials</a></div>
+        <div class="col animate__animated animate__fadeInUp"><a href="#contact">Conatct</a></div>
       </div>
     </div>
     <div id="landing" class="container-fluid">
@@ -404,6 +404,9 @@
         </div>
       </div>
     </div>
+    <div id="contact">
+    
+    </div>
   </div>
 </template>
 
@@ -697,4 +700,11 @@ td {
   width: 25vw;
   height: 40vh;
 }
+
+#contact {
+  background-color: #8a5649;
+  width: 100vw;
+  height: 50vh;
+}
+
 </style>
