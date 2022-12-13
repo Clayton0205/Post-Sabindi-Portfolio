@@ -4,8 +4,8 @@
       <div class="row">
         <div class="col animate__animated animate__fadeInUp"><a href="#landing">Home</a></div>
         <div class="col animate__animated animate__fadeInUp"><a href="#about">About</a></div>
-        <div class="col animate__animated animate__fadeInUp"><a href="">Resume</a></div>
-        <div class="col animate__animated animate__fadeInUp"><a href="">Projects</a></div>
+        <div class="col animate__animated animate__fadeInUp"><a href="#resume">Resume</a></div>
+        <div class="col animate__animated animate__fadeInUp"><a href="#projects">Projects</a></div>
         <div class="col animate__animated animate__fadeInUp"><a href="">Testimonials</a></div>
         <div class="col animate__animated animate__fadeInUp"><a href="">Conatct</a></div>
       </div>
@@ -190,6 +190,9 @@
               <h4>Swartland Primary and High School</h4>
             </div>
             <div>
+              <img class="logo" src="https://i.postimg.cc/rss6CMPV/unnamed.jpg">
+            </div>
+            <div>
               <h5>12 years</h5>
             </div>
             <div>
@@ -202,12 +205,92 @@
               <h4>Lifechoices Coding Academy</h4>
             </div>
             <div>
+              <img class="logo" src="https://i.postimg.cc/xC4QZXHJ/download.png">
+            </div>
+            <div>
               <h5>6 Months</h5>
             </div>
             <div>
               <h5>I went from almost nothing about coding to doing a decent job on project. The life skills sessions and
                 personal developement also improve the person I aspire to be</h5>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="projects" class="container-fluid">
+      <div id="projectsTitle">
+        <h3>Projects</h3>
+      </div>
+      <div class="row projectsRow">
+        <div class="col projects">
+          <div>
+            <h4>BMI Calculator</h4>
+          </div>
+          <div>
+            <img class="projectPicture" src="https://i.postimg.cc/SK6CdnTm/Screenshot-2022-07-22-105429.png">
+          </div>
+          <div>
+            <p>This was one of first javascript projects and I fully enjoyed the process</p>
+          </div>
+        </div>
+        <div class="col projects">
+          <div>
+            <h4>Temp. Calculator</h4>
+          </div>
+          <div>
+            <img class="projectPicture" src="https://i.postimg.cc/wBnx12cv/Screenshot-2022-07-22-105707.png">
+          </div>
+          <div>
+            <p>Doing this made me relise how broken farenheit is</p>
+          </div>
+        </div>
+      </div>
+      <div class="row projectsRow">
+        <div class="col projects">
+          <div>
+            <h4>Portfolio Project</h4>
+          </div>
+          <div>
+            <img class="projectPicture" src="https://i.postimg.cc/hPPBmjTL/Screenshot-2022-07-20-151501.png">
+          </div>
+          <div>
+            <p>This is my previous Portfolio that I am proud of because of the amount of code in it</p>
+          </div>
+        </div>
+        <div class="col projects">
+          <div>
+            <h4>Store Project</h4>
+          </div>
+          <div>
+            <img class="projectPicture" src="https://i.postimg.cc/HLN4vrXK/Screenshot-2022-07-22-105925.png">
+          </div>
+          <div>
+            <p>I created a store that sells countries with commodities such as area of country, population and my favorite...Amount of McDonalds in a country</p>
+          </div>
+        </div>
+      </div>
+      <div class="row projectsRow">
+        <div class="col projects">
+          <div>
+            <h4>Holiday</h4>
+          </div>
+          <div>
+            <img class="projectPicture" src="https://i.postimg.cc/d3nD9x54/Holiday.png">
+          </div>
+          <div>
+            <p>When I got a task that required basic Tourism I was exstatic. This is my all time favorite project</p>
+          </div>
+        </div>
+        <div class="col projects">
+          <div>
+            <h4>Calculator</h4>
+          </div>
+          <div>
+            <img class="projectPicture" src="https://i.postimg.cc/gj0GGkKH/Screenshot-2022-07-21-093229.png">
+          </div>
+          <div>
+            <p>This was done in two parts styling that we earlier in the year and fuctionality that we did when we learned Javascript</p>
           </div>
         </div>
       </div>
@@ -351,14 +434,14 @@ td {
   color: #8a5649;
   text-align: center;
   width: 100vw;
-  height: 150vh;
+  height: 100vh;
   border-bottom: double #c49b84 5px;
 }
 
 #resumeTitle {
   margin: auto;
   width: 10vw;
-  padding-top: 10vh;
+  padding-top: 5vh;
   font-size: 3vh;
   border-bottom: solid #8a5649 2px;
 }
@@ -427,5 +510,44 @@ td {
 
 .schoolTitle {
   border-bottom: solid #8a5649 2px;
+}
+
+.logo {
+  padding-top: 3vh;
+  width: 10vw;
+  height: 20vh;
+}
+
+#projects {
+  background-image: linear-gradient(to bottom, #fcf9f2, #f4eada, #eddac2, #e8caac, #e4b998);
+  color: #8a5649;
+  text-align: center;
+  width: 100vw;
+  height: 160vh;
+  border-bottom: double #c49b84 5px;
+}
+
+#projectsTitle {
+  margin: auto;
+  width: 10vw;
+  padding-top: 5vh;
+  font-size: 3vh;
+  border-bottom: solid #8a5649 2px;
+}
+
+.projectsRow {
+  padding-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.projects {
+  border: solid #8a5649 2px;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+.projectPicture {
+  width: 40vw;
+  height: 35vh;
 }
 </style>
