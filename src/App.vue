@@ -404,8 +404,54 @@
         </div>
       </div>
     </div>
-    <div id="contact">
-    
+    <div id="contact" class="container-fluid">
+      <div id="contactTitle" class="row">
+        <h3>Contact me on</h3>
+      </div>
+      <div id="contactIcons" class="row">
+        <div class="col iconic"><i class="fa-solid fa-mobile"></i> <br>
+          <p>066 258 8744</p>
+        </div>
+        <div class="col iconic"><i class="fa-solid fa-envelope"></i> <br>
+          <p>claytonxxclayton@gmail.com</p>
+        </div>
+        <div class="col iconic"><a href="https://www.linkedin.com/in/clayton-adonis-798612238/"><i
+              class="fa-brands fa-linkedin"></i> <br>
+            <p>Clayton Adonis</p>
+          </a></div>
+        <div class="col iconic"><a href="https://twitter.com/Clayton_x_Terra"><i class="fa-brands fa-twitter"></i> <br>
+            <p>@Clayton_x_Terra
+            </p>
+          </a></div>
+      </div>
+      <div id="form" class="row">
+        <form action="https://formspree.io/f/xoqbggea" method="post">
+          <div id="formtitle">
+            <h3>Or Contact me Directly</h3>
+          </div>
+          <div class="container">
+            <div class="row">
+              <label class="label" for="fullname">Fullname</label>
+              <br>
+              <input class="input" type="text" name="fullname" id="name">
+            </div>
+            <div class="row">
+              <label class="label" for="email">Email</label>
+              <br>
+              <input class="input" type="text" name="email" id="email">
+            </div>
+            <div class="row">
+              <textarea class="input"></textarea>
+            </div>
+            <div id="buttonarea">
+              <button id="submit" type="submit">Submit</button>
+            </div>
+          </div>
+          <div id="copyright" class="row">
+            <p>&copy; 2022 Clayton Adonis</p>
+          </div>
+        </form>
+      </div>
     </div>
   </div>
 </template>
@@ -440,7 +486,7 @@ export default {
   background: transparent;
   text-align: center;
   width: 100vw;
-  height: 100vh;
+  height: 10px;
   position: fixed;
 }
 
@@ -546,7 +592,7 @@ td {
   color: #8a5649;
   text-align: center;
   width: 100vw;
-  height: 100vh;
+  height: 950px;
   border-bottom: double #c49b84 5px;
 }
 
@@ -635,7 +681,7 @@ td {
   color: #8a5649;
   text-align: center;
   width: 100vw;
-  height: 160vh;
+  height: 1250px;
   border-bottom: double #c49b84 5px;
 }
 
@@ -668,7 +714,7 @@ td {
   color: #8a5649;
   text-align: center;
   width: 100vw;
-  height: 200vh;
+  height: 1600px;
   border-bottom: double #c49b84 5px;
 }
 
@@ -703,8 +749,53 @@ td {
 
 #contact {
   background-color: #8a5649;
+  color: #e4b998;
+  text-align: center;
   width: 100vw;
-  height: 50vh;
+  height: 470px;
 }
 
+#contactTitle {
+  padding-top: 20px;
+  text-decoration: underline;
+}
+
+#contactIcons {
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+#form {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.input {
+  background-color: #e4b998;
+  color: #8a5649;
+  text-align: center;
+}
+
+#formtitle {
+  padding-top: 20px;
+  text-decoration: underline;
+}
+
+.label {
+  background-color: #c98b58;
+}
+
+#buttonarea {
+  padding-top: 10px;
+}
+
+#submit {
+  background-color: #e4b998;
+  border: none;
+  color: #8a5649;
+}
+
+#copyright {
+  padding-top: 10px;
+}
 </style>
